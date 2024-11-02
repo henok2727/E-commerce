@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    float: right; 
+    vertical-align: center;
+}
+
+.homeBar{
+    color:aquamarine;
+    text-align: right;
+    height: 40px;
+    width: 200px;
+    font-size: medium;
+    transition: .20;
+    text-align: center;
+    font-weight: 400;
+}
+
+.homeBar:hover{
+    color: blue;
+
+}
+
+.register{
+    color: aquamarine;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+
+.logout{
+    color: red;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+
+.register:hover{
+    color: blue;
+}
