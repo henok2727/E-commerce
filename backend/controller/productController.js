@@ -196,7 +196,7 @@ const fetchNewProducts = asyncHandler(async (req, res) => {
 
 const filterProducts = asyncHandler(async (req, res) => {
   try {
-    const { checked, radio } = req.body; 
+    const { checked, radio } = req.body;
 
     let args = {};
     if (checked.length > 0) args.category = checked;
